@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+</head>
+<body>
+    Profile
+    <h1>Welcome <%= user.name%></h1>
+    <ul>
+        <% user.skill.forEach((item)=>{ %>  
+           <li><%= item %></li> 
+        <% }) %>   
+        </ul>
+</body>
+</html>
